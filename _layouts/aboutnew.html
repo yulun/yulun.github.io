@@ -1,0 +1,117 @@
+---
+layout: default
+---
+<!-- <!DOCTYPE html> -->
+<!-- <html> -->
+<!-- <head> -->
+    <!-- https://github.com/tholman/cursor-effects -->
+    <!-- <script type="module"> -->
+        <!-- import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js"; -->
+        <!-- new fairyDustCursor(); -->
+    <!-- </script> -->
+<!-- </head> -->
+
+<!-- https://github.com/tholman/cursor-effects -->
+<!-- <script type="module">
+    import { fairyDustCursor } from "https://unpkg.com/cursor-effects@latest/dist/esm.js";
+    new fairyDustCursor();
+</script> -->
+
+<div class="post">
+
+
+  <article>
+    <div class="row">
+        <div class="col-sm-3">
+            {% if page.profile.image %}
+            <!-- <img style="width: 170px;border-radius: 10px" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}"> -->
+            <img style="height: 175px;border-radius: 10px" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+            
+            {% endif %}
+        </div>
+    
+        <div class="col-sm-9">
+            <h1 class="post-title">
+            {% if site.title == "blank" %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{% else %}{{ site.title }}{% endif %}
+            </h1>
+            <p class="desc">{{ page.description }}</p>
+            <div class="social">
+                <div class="contact-icons">
+                {% include social.html %}
+                </div>
+            </div>
+   
+        </div>
+    </div>
+
+    <div class="clearfix">
+      {{ content }}
+    </div>
+
+
+    {% if page.news %}
+      {% include news.html %}
+    {% endif %}
+
+    {% if page.selected_papers %}
+      {% include selected_papers.html %}
+    {% endif %}
+
+    {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
+      </div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+    {% endif %}
+    <div id="sponsors" class="sponsor-logos" style="text-align: center; margin-top: 40px;">
+      <h5>Sponsors</h5>
+      <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
+        <!-- <img src="/assets/img/logos/Sjtu-logo-standard-red.png" alt="sjtu" style="height: 45px;">
+        <img src="/assets/img/logos/nsfc-logo.png" alt="nsfc" style="height: 45px;">
+        <img src="/assets/img/logos/Huawei_Standard_logo.svg.png" alt="huawei" style="height: 45px;">
+        <img src="/assets/img/logos/Vivo_logo_2019.svg.png" alt="vivo" style="height: 45px;">
+        <img src="/assets/img/logos/Lenovo_logo_2015.svg.png" alt="lenovo" style="height: 45px;"> -->
+        <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Sjtu-logo-standard-red.png" alt="sjtu" style="height: 45px;">
+        </a>
+        <a href="https://www.nsfc.gov.cn/english/site_1/index.html" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/nsfc-logo.png" alt="nsfc" style="height: 45px;">
+        </a>
+        <a href="https://www.huawei.com/en/" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Huawei_Standard_logo.svg.png" alt="huawei" style="height: 45px;">
+        </a>
+        <a href="https://www.vivo.com/en" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Vivo_logo_2019.svg.png" alt="vivo" style="height: 45px;">
+        </a>
+        <a href="https://www.lenovo.com/us/en/" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Lenovo_logo_2015.svg.png" alt="lenovo" style="height: 45px;">
+        </a>
+        <a href="https://www.adobe.com/" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Adobe_Corporate_logo.svg.png" alt="adobe" style="height: 45px;">
+        </a>
+        <a href="https://w.mgtv.com/" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Mango_TV_Logo_crop.jpg" alt="mangotv" style="height: 45px;">
+        </a>
+        <a href="https://www.meituan.com/en-US/about-us" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Meituan_English_Logo.png" alt="meituan" style="height: 45px;">
+        </a>
+        <a href="https://transsion.com/en" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Transsion_Holdings_logo.png" alt="transsion" style="height: 45px;">
+        </a>
+        <a href="https://www.tencent.com/en-us/" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Tencent_English-logo.png" alt="tecent" style="height: 45px;">
+        </a>
+        <!-- <a href="https://www.mi.com/" target="_blank" rel="noopener noreferrer">
+          <img src="/assets/img/logos/Xiaomi_logo.png" alt="tecent" style="height: 45px;">
+        </a>                  -->
+      </div>
+    </div>
+    
+    <a href="https://clustrmaps.com/site/19ncr"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=jIdUd0dDYkE8CiqptfhnfiWcZHCc5p62dIsontyW-FQ&cl=ffffff" style="width: 0px;" /></a>
+  </article>
+
+</div>
+
+<!-- </html> -->

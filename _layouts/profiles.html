@@ -1,0 +1,87 @@
+---
+layout: page
+---
+
+<style>
+.profiles-container {
+  display: flex;
+  flex-direction: column; /* 使每个团队的布局垂直排列 */
+  align-items: center; /* 排列 */
+}
+
+.team-container {
+  margin-bottom: 20px; /* 每个团队之间增加间距 */
+  width: 100%; /* 设置宽度为100%，保证占满容器 */
+}
+
+.team-title {
+  text-align: left; /* 文本左对齐 */
+  font-weight: bold; /* 文字加粗 */
+  width: 100%; /* 设置宽度为100% */
+  padding-left: 10px; /* 添加左侧内边距，确保与成员卡片对齐 */
+}
+
+.profile-card {
+  margin: 10px;
+  text-align: center; /* 排列样式：left, center */
+  flex: 1 1 calc(100% / 4 - 20px); /* 静态化列数，假设每行4列 */
+  box-sizing: border-box; /* 包含内边距和边框在内的宽度 */
+}
+
+.profile-image {
+  width: 150px; /* 统一图片宽度 */
+  height: 200px; /* 统一图片高度 */
+  object-fit: cover; /* 保持图片比例 */
+  border-radius: 5%; /* 如果需要圆形图片 */
+}
+
+.social-icons {
+  font-size: 24px;
+  color: #555;
+  margin-top: 0.1px;
+  margin-bottom: 0.1px;
+}
+
+.social-icons a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.social-icons i:hover {
+  color: #4A90E2;
+}
+
+.more-info {
+  margin-top: 1px;
+  line-height: 1.0;
+}
+</style>
+
+<div class="profiles-container">
+    {% for team in page.teams %}
+    <div class="team-container">
+      <div class="team-title"><h2>{{ team.team_name }}</h2></div>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+        {% for member in team.members %}
+        <div class="profile-card">
+            <img src="{{ 'assets/img/people/' | append: member.image | relative_url }}" class="profile-image" alt="Profile image of {{ member.name}}">
+          <h3 style="font-size: 1.0em;">{{ member.name}}</h3>
+          <div class="social-icons">
+            {% if member.homepage %}
+            <a href="{{ member.homepage }}" target="_blank"><i class="fas fa-home"></i></a>
+            {% endif %}
+            <a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a>
+            {% if member.github %}
+            <a href="{{ member.github }}" target="_blank"><i class="fab fa-github"></i></a>
+            {% endif %}          
+            {% if member.google_scholar %}
+            <a href="{{ member.google_scholar }}" target="_blank"><i class="ai ai-google-scholar"></i></a>
+            {% endif %}
+          </div>
+          <div class="more-info">{{ member.more_info | markdownify }}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>

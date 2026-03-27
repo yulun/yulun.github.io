@@ -1,0 +1,199 @@
+"Adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+
+"Podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+
+"Rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+
+"Bach": 
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+
+"Schrödinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+
+"Lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+
+"Planck":
+  - firstname: ["Max"]
+    url: https://en.wikipedia.org/wiki/Max_Planck
+
+# "Zhang":
+#   - firstname: ["Yulun"]
+#     url: http://yulunzhang.com
+
+# "Li":
+#   - firstname: ["Kunpeng"]
+#     url: https://kunpengli1994.github.io/
+
+# "Li":
+#   - firstname: ["Kai"]
+#     url: http://kailigo.github.io/
+
+# "Van Gool":
+#   - firstname: ["Luc"]
+#     url: https://scholar.google.com/citations?user=TwMib_QAAAAJ&hl=en
+
+# "Tian":
+#   - firstname: ["Yapeng"]
+#     url: http://www.yapengtian.com/
+
+# "Timofte":
+#   - firstname: ["Radu"]
+#     url: https://www.informatik.uni-wuerzburg.de/computervision/
+
+# "Dai":
+#   - firstname: ["Qionghai"]
+#     url: http://media.au.tsinghua.edu.cn/english/team/qhdai.html
+
+# "Cai":
+#   - firstname: ["Yuanhao"]
+#     url: https://caiyuanhao1998.github.io/
+
+# "Zhang":
+#   - firstname: ["Yongbing"]
+#     url: https://scholar.google.com/citations?user=0KlvTEYAAAAJ&hl=en
+
+# "Qin":
+#   - firstname: ["Can"]
+#     url: https://chintsan01.github.io/
+
+# "Wang":
+#   - firstname: ["Huan"]
+#     url: http://huanwang.tech/
+
+# "Pfister":
+#   - firstname: ["Hanspeter"]
+#     url: https://vcg.seas.harvard.edu/
+
+# "Xu":
+#   - firstname: ["Chenliang"]
+#     url: http://www.cs.rochester.edu/~cxu22/
+
+# "Wei":
+#   - firstname: ["Donglai"]
+#     url: http://donglaiw.github.io/
+
+# "Wang":
+#   - firstname: ["Zhaowen"]
+#     url: http://www.ifp.illinois.edu/~wang308/
+
+# "Cao":
+#   - firstname: ["Jiezhang"]
+#     url: https://www.jiezhangcao.com/
+
+# "Zhang":
+#   - firstname: ["Kai"]
+#     url: https://cszn.github.io/
+
+# "Lin":
+#   - firstname: ["Zhe"]
+#     url: https://sites.google.com/site/zhelin625/
+
+# "Yang":
+#   - firstname: ["Jimei"]
+#     url: https://jimeiyang.github.io/
+
+# "Allebach":
+#   - firstname: ["Jan"]
+#     url: https://scholar.google.com/citations?hl=en&user=wzG_DLwAAAAJ
+
+# "DiVerdi":
+#   - firstname: ["Stephen"]
+#     url: http://www.stephendiverdi.com/cv.html
+
+# "Xu":
+#   - firstname: ["Dong"]
+#     url: https://www.cs.hku.hk/people/academic-staff/dongxu
+
+# "Echevarria":
+#   - firstname: ["Jose"]
+#     url: http://www.jiechevarria.com/
+
+# "Zhang":
+#   - firstname: ["Jian"]
+#     url: https://jianzhang.tech/
+
+# "Yuan":
+#   - firstname: ["Xin"]
+#     url: https://en.westlake.edu.cn/faculty/xin-yuan.html
+
+# "Fu":
+#   - firstname: ["Ying"]
+#     url: https://ying-fu.github.io/
+
+# "Chen":
+#   - firstname: ["Zheng"]
+#     url: https://zhengchen1999.github.io/
+
+# "Zhang":
+#   - firstname: ["Jiale"]
+#     url: https://github.com/gladzhang
+
+
+# "Lin":
+#   - firstname: ["Jing"]
+#     url: https://jinglin7.github.io/
+
+# "Kong":
+#   - firstname: ["Linghe"]
+#     url: https://www.cs.sjtu.edu.cn/~linghe.kong/
+
+# "Yang":
+#   - firstname: ["Xiaokang"]
+#     url: https://scholar.google.com/citations?user=yDEavdMAAAAJ&hl=en
+
+# "Gu":
+#   - firstname: ["Jinjin"]
+#     url: https://www.jasongt.com/
+
+# "Dong":
+#   - firstname: ["Jiahua"]
+#     url: https://scholar.google.com/citations?user=xrXqa8AAAAAJ&hl=zh-CN
+
+# "Wang":
+#   - firstname: ["Jiamian"]
+#     url: https://jiamian-wang.github.io/
+
+# "Tao":
+#   - firstname: ["Zhiqiang"]
+#     url: https://ztao.cc/index.html
+
+# "Xia":
+#   - firstname: ["Bin"]
+#     url: https://github.com/Zj-BinXia
+
+# "Liu":
+#   - firstname: ["Ding"]
+#     url: https://scholar.google.com/citations?user=PGtHUI0AAAAJ&hl=en
+
+# "Wang":
+#   - firstname: ["Haoqian"]
+#     url: https://scholar.google.com/citations?user=eldgnIYAAAAJ&hl=zh-CN
+
+# "He":
+#   - firstname: ["Chunming"]
+#     url: https://chunminghe.github.io/
+
+# "Wu":
+#   - firstname: ["Zongwei"]
+#     url: https://sites.google.com/view/zwwu/accueil
+
+
+
+  
